@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>🚍 Available Buses</h2>
+
+  <% buses.forEach(bus => { %>
+    <div class="bus-card">
+      <p><%= bus.name %></p>
+      <p><%= bus.from %> → <%= bus.to %></p>
+
+      <form action="/book" method="POST">
+        <input type="hidden" name="busId" value="<%= bus._id %>" />
+        <input name="passengerName" placeholder="Your Name" required />
+        <input name="seatsBooked" type="number" placeholder="Seats" required />
+        <button>Book Now</button>
+      </form>
+    </div>
+  <% }) %>
+</div>
+
+</body>
+</html>

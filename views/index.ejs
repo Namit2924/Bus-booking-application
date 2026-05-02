@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>🚌 Bus Booking System</h1>
+
+  <form action="/add-bus" method="POST">
+    <input name="name" placeholder="Bus Name" required />
+    <input name="from" placeholder="From" required />
+    <input name="to" placeholder="To" required />
+    <input name="seats" type="number" placeholder="Seats" required />
+    <button>Add Bus</button>
+  </form>
+
+  <div style="text-align:center;">
+    <a href="/buses">
+      <button>View Available Buses</button>
+    </a>
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+/* General */
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+h1, h2 {
+  text-align: center;
+  color: #333;
+}
+
+/* Container */
+.container {
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+/* Form */
+form {
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+input {
+  padding: 10px;
+  margin: 5px;
+  width: 22%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Button */
+button {
+  padding: 10px 15px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* Bus Card */
+.bus-card {
+  background: white;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.bus-card p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Booking form inside card */
+.bus-card form input {
+  width: auto;
+}
