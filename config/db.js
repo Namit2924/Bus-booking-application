@@ -3,7 +3,7 @@ const mysql = require("mysql2");
 const db = mysql.createConnection({
   host: "bus-db.cbgaige0c4rq.ap-south-1.rds.amazonaws.com",
   user: "admin",
-  password: "admin123",
+  password: "****",
   database: "busDB",
   port: 3306
 });
